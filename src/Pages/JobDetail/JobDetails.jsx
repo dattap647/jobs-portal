@@ -35,8 +35,7 @@ const JobDetails = () => {
           <>
             <div className="d-flex flex-column mx-2 ">
               <div className="h4 m-0 ms-1">
-                {job.department.title} Department At {job.company}
-                {job.location.title}
+                {job.department.title} Department At {job.company} {job.location.title}
               </div>
               <JobContainer
                 job={job}
