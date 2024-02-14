@@ -1,0 +1,28 @@
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  position: relative;
+  border-radius: 10px;
+  background-color: var(--white);
+  min-height: 44px;
+}
+.search-input {
+  flex-grow: 1;
+  border: 1px solid;
+  border-radius: 4px;
+  outline: none;
+  padding: 12px;
+  font: 400 16px "Avenir", sans-serif;
+  color: var(--black);
+}
+.search-icon {
+  position: absolute;
+  right: 8px;
+  top: 45%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  color: #999;
+  cursor: pointer;
+  background-color: var(--white);
+}

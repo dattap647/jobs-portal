@@ -1,0 +1,23 @@
+
+.dynamic-dropdown-container {
+  border-radius: 6px;
+  min-width: 350px;
+  height: 42px;
+
+}
+
+
+.dynamic-dropdown-container .dropdown {
+  min-height: 44px;
+  border: 1px solid;
+  border-radius: 4px;
+  outline: 1px;
+  font: 400 16px "Raleway", sans-serif;
+  color: var(--blue);
+  padding: 11px 12px;
+  padding-right: 20px;
+  background: var(--white);
+}
+.dynamic-dropdown-container .dropdown {
+  border: 1px solid var(--white);
+}

@@ -1,0 +1,14 @@
+.button {
+  height: 44px;
+  letter-spacing: 2%;
+  line-height: 16.34px;
+  white-space: nowrap;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid;
+  gap: 16px;
+  border-radius: 22px;
+  padding: 12px 24px;
+  font: 600 14px "RalewaySemibold", sans-serif;
+  cursor: pointer;
+}

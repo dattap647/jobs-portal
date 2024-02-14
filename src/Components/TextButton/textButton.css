@@ -1,0 +1,12 @@
+.text-button {
+  
+  text-decoration: 0.1px ;
+  white-space: nowrap;
+  font: 600 15px "RalewaysSemiBold", sans-serif;
+  cursor: pointer;
+}
+
+.text-button:hover{
+  color: var(--blue);
+  text-decoration: 2px underline var(--blue);
+}
