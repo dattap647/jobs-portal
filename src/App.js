@@ -1,5 +1,5 @@
 import { RouterProvider } from "react-router";
-import { router } from "../../jobs-portal/src/routes";
+import { router } from "../src/routes";
 import { ParentProvider } from "./context/ParentContext";
 
 function App() {
